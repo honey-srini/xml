@@ -1,0 +1,8 @@
+<!ELEMENT StatesInIndia (state+)>
+<!ELEMENT state (name,capital,language,area,population,primaryCrop)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+<!ELEMENT primaryCrop (#PCDATA)>

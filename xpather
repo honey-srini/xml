@@ -1,0 +1,20 @@
+//state
+
+//state/name
+
+//state/capital
+
+
+a.//state[1]/language
+
+b.//state[2]/area
+
+c./StatesInIndia/state[population>1000000]/name
+  //state[population>1000000]/name
+
+d.count(StatesInIndia/state[primaryCrop='Rice'])
+
+e./StatesInIndia/state[area>100000]/name
+   //state[area>100000]/name
+
+4. for $i in StatesInIndia/state where $i/name='Tamil Nadu' return $i/capital
