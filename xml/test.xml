@@ -1,0 +1,22 @@
+<!DOCTYPE Mydevices SYSTEM "test.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<Mydevices>
+    <device>
+        <name>laptop</name>
+        <brand>lenovo</brand>
+        <model>thinkpad</model>
+    </device>
+
+    <device>
+        <name>phone</name>
+        <brand>redmi</brand>
+        <model>k20 pro</model>
+    </device>
+
+    <device>
+        <name>phone</name>
+        <brand>apple</brand>
+        <model>iphone x</model>
+    </device>
+
+</Mydevices>

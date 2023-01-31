@@ -1,0 +1,5 @@
+<!ELEMENT Mydevices (device+)>
+<!ELEMENT device (name,brand,model)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
